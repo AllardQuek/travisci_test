@@ -1,7 +1,6 @@
 import unittest
 from math import add, multiply
 
-
 class MathTests(unittest.TestCase):
     # test functions must start with keyword 'test'
     def test_add0(self):
@@ -11,7 +10,7 @@ class MathTests(unittest.TestCase):
         self.assertEqual(add(-2, 3), 1)
 
     def test_add2(self):
-        # self.assertNotEqual(add('hello', 'world'), 'helloworld')
+        self.assertNotEqual(add('hello', 'world'), 'helloworld')
         self.assertFalse(add('hello', 'world'))
 
     def test_multiply0(self):
