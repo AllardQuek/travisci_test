@@ -1,6 +1,7 @@
 import unittest
 from math import add, multiply
 
+
 class MathTests(unittest.TestCase):
     # test functions must start with keyword 'test'
     def test_add0(self):
