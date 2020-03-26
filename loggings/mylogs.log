@@ -1,0 +1,13 @@
+2020-03-27 00:00:58,725:DEBUG:__main__:now I can see debug info too
+2020-03-27 00:16:02,788:ERROR:__main__:cannot divide by zero!
+2020-03-27 00:16:23,695:ERROR:__main__:cannot divide by zero!
+2020-03-27 00:17:31,393:ERROR:__main__:Cannot divide by zero
+Traceback (most recent call last):
+  File "mylogs.py", line 23, in divide
+    return(n1 / n2)
+ZeroDivisionError: division by zero
+2020-03-27 00:19:18,061:ERROR:__main__:Cannot divide by zero
+Traceback (most recent call last):
+  File "mylogs.py", line 23, in divide
+    return(n1 / n2)
+ZeroDivisionError: division by zero
