@@ -7,7 +7,7 @@ def f():
     raise SystemExit(1)
 
 def test_answer():
-    assert func(3) == 5
+    assert func(3) == 4
 
 def test_mytest():
     with pytest.raises(SystemExit):
