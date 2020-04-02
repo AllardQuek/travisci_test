@@ -4,5 +4,5 @@ def add(num1, num2):
     return num1 + num2
 
 def multiply(n1, n2):
-    result = n1 * n2
+    # result = n1 * n2
     return result
