@@ -1,5 +1,6 @@
 import pytest
 
+# Pytest examples: assert and raises
 def func(x):
     return x + 1
 
